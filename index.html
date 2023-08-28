@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Rick and Morty" content="Rick and Morty Wiki App" />
+    <base href="/" />
+    <title>rick-morty</title>
+    <link rel="stylesheet" href="node_modules/lit-fontawesome/css/font.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+      @font-face {
+        font-family: Rick;
+        src: url(./assets/fonts/rick.ttf);
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Concert One', cursive;
+        background-color: #262830;
+        box-sizing: border-box;
+        color: #00d9ff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <rick-morty></rick-morty>
+    <script type="module" src="./src/RickMorty.js"></script>
+  </body>
+</html>
